@@ -336,3 +336,29 @@
 	-webkit-transition-duration: 0s;
 	transition-duration: 0s;
 }
+
+
+@media only screen and (max-width: 600px) {
+	.hamburger {
+		width: 35px;
+		height: 35px;
+	}
+
+	.hamburger__line--01, .hamburger__line--02, .hamburger__line--03, .hamburger__line--cross01, .hamburger__line--cross02 {
+		left: 8px;
+	}
+
+	.hamburger__line--01 {
+		top: 12px;
+	}
+	.hamburger__line--02 {
+		top: 18px;
+	}
+	.hamburger__line--03 {
+		top: 24px;
+	}
+
+	.hamburger__line--02, .hamburger__line--cross01, .hamburger__line--cross02 {
+		top: 18px;
+	}
+}

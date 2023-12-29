@@ -9,16 +9,16 @@
     <li><a href="about-us.php">About Us</a> </li>
     <li><a href="service.php">What We Do?</a>
         <ul class="dropdown">
-            <li><a href="service.php">Music marketing</a></li>
-            <li><a href="service.php">Marketing consultation</a></li>
-            <li><a href="service.php">Press releases</a></li>
-            <li><a href="service.php">Google ads</a></li>
-            <li><a href="service.php">Meta ads</a></li>
-            <li><a href="service.php">Spotify promotions</a></li>
-            <li><a href="service.php">Youtube promotions</a></li>
-            <li><a href="service.php">Influencer marketing</a></li>
-            <li><a href="service.php">Reels promotions</a></li>
-            <li><a href="service.php">Music distribution</a></li>
+            <li><a href="music-marketing.php">Music marketing</a></li>
+            <li><a href="marketing-consultation.php">Marketing consultation</a></li>
+            <li><a href="press-releases.php">Press releases</a></li>
+            <li><a href="google-ads.php">Google ads</a></li>
+            <li><a href="meta-ads.php">Meta ads</a></li>
+            <li><a href="spotify-promotions.php">Spotify promotions</a></li>
+            <li><a href="youtube-promotions.php">Youtube promotions</a></li>
+            <li><a href="influencer-marketing.php">Influencer marketing</a></li>
+            <li><a href="reels-promotions.php">Reels promotions</a></li>
+            <li><a href="music-distribution.php">Music distribution</a></li>
         </ul>
         <style>
             .dropdown a {
@@ -26,7 +26,7 @@
             }
         </style>
     </li>
-    <li><a href="">Portfolio</a> </li>
+    <li><a href="index.php">Portfolio</a> </li>
     <li><a href="blog.php">Blog</a> </li>
     <li><a href="contact-us.php">Contact Us</a> </li>
 
@@ -72,8 +72,6 @@
 </header>
 
 <ul class="social-bar">
-    <li><a href="#">Facebook</a></li>
-    <li><a href="#">Twitter</a></li>
-    <li><a href="#">YouTube</a></li>
-    <li><a href="#">Instagram</a></li>
+    <li><a href="https://twitter.com/KmfMedia?s=09">Twitter</a></li>
+    <li><a href="https://www.instagram.com/kmfmedia.in/?igshid=NzZlODBkYWE4Ng%3D%3D">Instagram</a></li>
 </ul>

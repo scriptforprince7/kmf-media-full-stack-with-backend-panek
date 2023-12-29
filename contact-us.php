@@ -117,7 +117,7 @@
             <div class="col-md-6 col-sm-6 col-12 wow fadeIn">
               <div class="address">
                 <h4>OFFICE</h4>
-                <p>+91 6267700575<br>
+                <p>+91 7666086521<br>
                   <a href="#">Kmfmedia001@gmail.com</a><br>
                   Wazir nagar,South extension 1<br>
                   Delhi,110003

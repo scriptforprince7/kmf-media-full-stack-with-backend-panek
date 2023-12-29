@@ -1,3 +1,5 @@
+<?php include  'db/config.php' ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -32,6 +34,7 @@
   <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
   <link href="ico/favicon.png" rel="shortcut icon">
 
+
   <!-- CSS FILES -->
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/hamburger-menu.css">
@@ -40,6 +43,7 @@
   <link rel="stylesheet" href="css/fancybox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css" integrity="sha512-UJqci0ZyYcQ0AOJkcIkUCxLS2L6eNcOr7ZiypuInvEhO9uqIDi349MEFrqBzoy1QlfcjfURHl+WTMjEdWcv67A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -69,11 +73,7 @@
               <p data-swiper-parallax="-200">
                 Our mission is to unleash the boundless potential of music, transcending boundaries and genres.
               </p>
-              <a href="#" class="link">DISCOVER NOW</a><a href="videos/video.mp4" class="video-link" data-fancybox data-width="640" data-height="360">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
-                  <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="52" cy="52" r="50" />
-                </svg>
-                <span class="video-play-outline"></span> </a>
+              <!-- <a href="#" class="link">DISCOVER NOW</a> -->
             </div>
             <!-- end inner -->
           </div>
@@ -85,7 +85,7 @@
               <p data-swiper-parallax="-200">
                 We specialize in turning the language of sound into captivating stories that resonate with your audience.
               </p>
-              <a href="#" class="link">DISCOVER NOW</a>
+              <!-- <a href="#" class="link">DISCOVER NOW</a> -->
             </div>
             <!-- end inner -->
           </div>
@@ -97,7 +97,7 @@
               <p data-swiper-parallax="-200">
                 Discover the harmony where melodies and technology converge, creating music with every click.
               </p>
-              <a href="#" class="link">DISCOVER NOW</a>
+              <!-- <a href="#" class="link">DISCOVER NOW</a> -->
             </div>
             <!-- end inner -->
           </div>
@@ -118,137 +118,183 @@
     <section class="content">
       <div class="works four-cols">
         <div class="grid-sizer"></div>
-         end grid-sizer 
+        <!-- end grid-sizer -->
         <div class="grid-item-double">
           <figure class="reveal-effect se2-white wow perspective-box"> <img src="images/works01.jpg" alt="Image">
             <figcaption> <a href="project-detail.html">
                 <div class="bg-color" data-background="#2095f4"></div>
-                 end bg-color 
+                <!-- end bg-color -->
                 <div class="brand"> </div>
-                 end brand 
+                <!-- end brand -->
                 <h5>Music Marketing Services</h5>
                 <small>Explore our comprehensive music marketing services, designed to boost your visibility and reach your target audience.</small>
               </a> </figcaption>
           </figure>
         </div>
-         end grid-item 
+        <!-- end grid-item -->
         <div class="grid-item-double">
           <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works02.jpg" alt="Image">
             <figcaption> <a href="project-detail.html">
                 <div class="bg-color" data-background="#ffc509"></div>
-                 end bg-color 
+                <!-- end bg-color -->
                 <div class="brand"> </div>
-                 end brand 
+                <!-- end brand -->
                 <h5>Google Ads Mastery</h5>
                 <small>Harness the power of Google Ads with our expert team to amplify your online presence and music promotions.</small>
               </a></figcaption>
           </figure>
         </div>
-         end grid-item 
+        <!-- end grid-item -->
         <div class="grid-item">
           <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works03.jpg" alt="Image">
             <figcaption> <a href="project-detail.html">
                 <div class="bg-color" data-background="#6dd7a9"></div>
-                 end bg-color 
+                <!-- end bg-color -->
                 <div class="brand"> </div>
-                 end brand 
+                <!-- end brand -->
                 <h5>Spotify Success</h5>
                 <small>Elevate your Spotify presence with our tailored promotion strategies, placing your music on top playlists and gaining more streams.</small>
               </a></figcaption>
           </figure>
         </div>
-         end grid-item 
+        <!-- end grid-item -->
         <div class="grid-item">
           <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works04.jpg" alt="Image">
             <figcaption><a href="project-detail.html">
                 <div class="bg-color" data-background="#2d2d2f"></div>
-                 end bg-color 
+                <!-- end bg-color -->
                 <div class="brand"> </div>
-                 end brand 
+                <!-- end brand -->
                 <h5>Creative Brilliance</h5>
                 <small>We create captivating content, from stunning visuals to compelling ad copy, ensuring your music makes a lasting impression.</small>
               </a> </figcaption>
           </figure>
         </div>
-         end grid-item 
+        <!-- end grid-item -->
         <div class="grid-item">
           <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works06.jpg" alt="Image">
             <figcaption> <a href="project-detail.html">
                 <div class="bg-color" data-background="#fec520"></div>
-                 end bg-color 
+                <!-- end bg-color -->
                 <div class="brand"> </div>
-                 end brand 
+                <!-- end brand -->
                 <h5>Influencer Partnerships</h5>
                 <small>Collaborate with industry influencers to connect with an engaged audience and amplify your music's impact.</small>
               </a></figcaption>
           </figure>
         </div>
-         end grid-item 
+        <!-- end grid-item -->
         <div class="grid-item-double">
           <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works05.jpg" alt="Image">
             <figcaption> <a href="project-detail.html">
                 <div class="bg-color" data-background="#9f7cb2"></div>
-                 end bg-color 
+                <!-- end bg-color -->
                 <div class="brand"> </div>
-                 end brand 
+                <!-- end brand -->
                 <h5>Seamless Music Distribution</h5>
                 <small>Simplify the process of getting your music to your fans with our comprehensive distribution services.</small>
               </a> </figcaption>
           </figure>
         </div>
-         end grid-item 
+        <!-- end grid-item -->
       </div>
       <!-- end works -->
       <div class="icon-features">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>
-                Meta Ads
-              </small>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn">
+              <div class="meta-ads">
+                <i class="fab fa-facebook"></i>
+                <small>
+                  <h6>
+                    Meta Ads
+                  </h6>
+                </small>
+              </div>
               <p>
                 Our expertise in Meta Ads (Facebook and Instagram) enhances your reach and engagement.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="meta-ads.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
-              <small>YouTube Promotions</small>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s">
+              <div class="youtube-promotions">
+                <i class="fab fa-youtube"></i>
+                <small>
+                  <h6>
+                    YouTube Promotions
+                  </h6>
+                </small>
+              </div>
+
               <p>
                 Elevate your YouTube presence and increase views with our promotional strategies.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="youtube-promotions.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
-              <small>Reels Promotions</small>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s">
+              <div class="reels-promotions">
+                <i class="fab fa-instagram"></i>
+                <small>
+                  <h6>
+                    Reels Promotions
+                  </h6>
+                </small>
+
+              </div>
+
               <p>
                 Utilize Instagram Reels for music promotion and capturing audience attention.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="reels-promotions.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image">
-              <small>Artist Branding</small>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn">
+              <div class="press-release">
+                <i class="fas fa-newspaper"></i>
+                <small>
+                  <h6>
+                    Press Releases
+                  </h6>
+                </small>
+
+              </div>
+
               <p>
                 Craft a unique and compelling brand identity that resonates with your audience.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="press-releases.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
-              <small>Email Marketing</small>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s">
+              <div class="google-adss">
+                <i class="fab fa-google"></i>
+                <small>
+                  <h6>
+                    Google Ads
+                  </h6>
+                </small>
+              </div>
               <p>
-                Engage your audience through strategic email marketing campaigns.
+                Engage your audience through strategic email marketing <br> campaigns.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="google-ads.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
-              <small>Content Creation</small>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s">
+              <div class="spotify-promotions">
+                <i class="fab fa-spotify"></i>
+                <small>
+                  <h6>
+                    Spotify Promotions
+                  </h6>
+                </small>
+              </div>
               <p>
                 We create captivating content to tell your music's story and connect with fans.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="spotify-promotions.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
           </div>
@@ -262,127 +308,144 @@
       <!-- slider section -->
 
       <!-- Slideshow container -->
-<div class="slideshow-container">
+      <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/saurav-kmf/1.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">1 / 3</div> -->
+          <img src="images/saurav-kmf/1.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/saurav-kmf/1.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">2 / 3</div> -->
+          <img src="images/saurav-kmf/2.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/saurav-kmf/3.jpg" style="width:100%">
-    <div class="text"></div>
-  </div>
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">3 / 3</div> -->
+          <img src="images/saurav-kmf/3.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
 
-<style>
-  .slideshow-container {
-  max-width: 1200px;
-  position: relative;
-  margin: auto;
-}
+      <style>
+        .slideshow-container {
+          max-width: 1200px;
+          position: relative;
+          margin: auto;
+        }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+        /* Hide the images by default */
+        /* .mySlides {
+          display: none;
+        } */
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 90%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+        /* Next & previous buttons */
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 88%;
+          width: auto;
+          margin-top: -22px;
+          padding: 16px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 5px;
+          width: 5px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+        .active,
+        .dot:hover {
+          background-color: #717171;
+        }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-</style>
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+          from {
+            opacity: .4
+          }
+
+          to {
+            opacity: 1
+          }
+        }
+
+
+        @media only screen and (max-width: 600px) {
+          .slider {
+            height: 100vh;
+          }
+        }
+      </style>
       <!-- news section -->
+
 
       <div class="awards" id="counter">
         <div class="container">
@@ -402,7 +465,7 @@
                   <!-- end award -->
                 </div>
                 <!-- end col-4 -->
-            
+
                 <div class="col-md-6 col-sm-4 col-12">
                   <div class="award">
                     <figure><a href="https://www.thedailybeat.in/krantiveer-sourav-kumar-yadav-founded-kmf-media-one-of-the-fastest-growing-marketing-firm-in-the-industry/"><img src="images/news2.png" alt="Image"></a></figure>
@@ -414,7 +477,7 @@
               </div>
               <!-- end row inner -->
             </div>
-            
+
             <!-- end col-7 -->
           </div>
           <!-- end row -->
@@ -445,15 +508,14 @@
               display: none;
             }
 
-            .you{
+            .you {
               font-size: 26px;
             }
 
-            .yout{
+            .yout {
               font-size: 20px;
             }
-}
-
+          }
         </style>
         <div class="inner video-custom wow fadeInRight video">
           <div class="contenty" style="text-align: center; margin-bottom:50px">
@@ -462,124 +524,126 @@
         </div>
       </div>
       <style>
-        .video{
+        .video {
           margin-top: 2.5rem;
         }
       </style>
-      
+
       <!-- testimonial section -->
       <div class="col-md-5 col-sm-12 col-12 wow fadeIn">
         <h5 class="ce cee">TESTIMONIALS</h5>
         <h2 class="ce">What People are saying...</h2>
       </div>
       <hr>
-  <div class="testimonial-section">
-      <div class="testimonial">
+      <div class="testimonial-section">
+        <div class="testimonial">
           <blockquote>As an indie artist, this platform gave my music the exposure it deserved. The support and feedback from the community were invaluable</blockquote>
           <p class="author">- Atul Garg</p>
-      </div>
-      <div class="testimonial">
+        </div>
+        <div class="testimonial">
           <blockquote>Working with this team was a game-changer for my band. They not only promoted our music but also provided expert guidance on branding.</blockquote>
           <p class="author">- Pritam Arora</p>
+        </div>
+        <div class="testimonial">
+          <blockquote>I was struggling to find my audience until I joined this promotion service. The targeted campaigns increased my social media following and boosted my Spotify streams.</blockquote>
+          <p class="author">- Sakshi Garg</p>
+        </div>
+        <!-- Add more testimonials as needed -->
       </div>
-      <div class="testimonial">
-        <blockquote>I was struggling to find my audience until I joined this promotion service. The targeted campaigns increased my social media following and boosted my Spotify streams.</blockquote>
-        <p class="author">- Sakshi Garg</p>
-    </div>
-      <!-- Add more testimonials as needed -->
-  </div>
 
-  <div class="testimonial-sectionn">
-    <div class="testimoniall">
-        <blockquote>The marketing strategies employed by this platform are unmatched. They understood my unique sound and crafted a tailored campaign that resonated with my target audience. </blockquote>
-        <p class="author">- Suraj Arora</p>
-    </div>
-    <div class="testimoniall">
-        <blockquote>What sets this promotion service apart is their unwavering support. They not only promote your music but also provide valuable advice and resources for independent artists</blockquote>
-        <p class="author">- Drishti Jain</p>
-    </div>
-    <div class="testimoniall">
-      <blockquote>Joining this community was the turning point of my music career. Their expertise and connections opened doors to collaborations and gigs I never thought possible.</blockquote>
-      <p class="author">- Rahul Gandhi</p>
-  </div>
-    <!-- Add more testimonials as needed -->
-</div>
+      <div class="testimonial-sectionn">
+        <div class="testimoniall">
+          <blockquote>The marketing strategies employed by this platform are unmatched. They understood my unique sound and crafted a tailored campaign that resonated with my target audience. </blockquote>
+          <p class="author">- Suraj Arora</p>
+        </div>
+        <div class="testimoniall">
+          <blockquote>What sets this promotion service apart is their unwavering support. They not only promote your music but also provide valuable advice and resources for independent artists</blockquote>
+          <p class="author">- Drishti Jain</p>
+        </div>
+        <div class="testimoniall">
+          <blockquote>Joining this community was the turning point of my music career. Their expertise and connections opened doors to collaborations and gigs I never thought possible.</blockquote>
+          <p class="author">- Rahul Gandhi</p>
+        </div>
+        <!-- Add more testimonials as needed -->
+      </div>
 
 
-  <style>
-    .ce{
-      margin-left: 50px;
-    }
+      <style>
+        .ce {
+          margin-left: 50px;
+        }
 
-    .cee{
-      margin-top: 8rem;
-    }
-
-
-  .testimonial-section {
-  margin-top: 35px; /* Add margin-top to create space from the top */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;  
-  margin-bottom: 1rem;
-}
-
-.testimonial-sectionn {
-  margin-top: 2px; /* Add margin-top to create space from the top */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px;  
-  margin-bottom: 5rem;
-}
+        .cee {
+          margin-top: 8rem;
+        }
 
 
-.testimonial {
-  max-width: 400px;
-  margin-bottom: 10px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
+        .testimonial-section {
+          margin-top: 35px;
+          /* Add margin-top to create space from the top */
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+          margin-bottom: 1rem;
+        }
 
-.testimoniall {
-  max-width: 400px;
-  margin-bottom: 10px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
+        .testimonial-sectionn {
+          margin-top: 2px;
+          /* Add margin-top to create space from the top */
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          padding: 20px;
+          margin-bottom: 5rem;
+        }
 
-@media (min-width: 768px) {
-  .testimonial-section {
-      flex-direction: row;
-      justify-content: space-around;
-  }
-  .testimonial {
-    margin-bottom: 1px;
-  }
-}
 
-@media (max-width: 767px) {
-  .testimonial-sectionn {
-    flex-direction: column;
-    align-items: center;
-  }
+        .testimonial {
+          max-width: 400px;
+          margin-bottom: 10px;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+        }
 
-  .cee{
-    margin-top: 5rem;
-  }
+        .testimoniall {
+          max-width: 400px;
+          margin-bottom: 10px;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+        }
 
-}
+        @media (min-width: 768px) {
+          .testimonial-section {
+            flex-direction: row;
+            justify-content: space-around;
+          }
 
-  </style>
-    <!-- testimonial section -->
+          .testimonial {
+            margin-bottom: 1px;
+          }
+        }
+
+        @media (max-width: 767px) {
+          .testimonial-sectionn {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .cee {
+            margin-top: 5rem;
+          }
+
+        }
+      </style>
+      <!-- testimonial section -->
       <div class="side-image-content">
         <div class="inner">
           <figure class="reveal-effect se2-white wow main-image" data-aos="slide-effect"><img src="images/image01.jpg" alt="Image"></figure>
@@ -604,79 +668,83 @@
       <hr>
       <style>
         @media (max-width: 767px) {
-  .blogg {
-    display: none;
-  }
+          .blogg {
+            display: none;
+          }
 
-  .ce{
-    margin-left: 18px;
-  }
+          .ce {
+            margin-left: 18px;
+          }
 
-  .sub-image{
-    display: none;
-  }
+          .sub-image {
+            display: none;
+          }
 
-}
+        }
       </style>
+
+
+
+
+
+
       <section class="content">
         <div class="journal">
-       
-        <!-- end post -->
-        <div class="clearfix"></div>
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col-md-4 col-sm-12 wow fadeInUp">
-              <div class="post">
-                <figure><img src="images/news02.jpg" alt="Image">
-                  <div class="author"> <img src="images/logo.png" alt="Image"> <small>by <strong>KMF Media</strong></small> </div>
-                </figure>
-                <div class="post-content"> <small>Posted 20 October 2023</small>
-                  <h3><a href="blog-post.php">Mastering Social Media for Musicians: Tips and Tricks</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam minus exercitationem perspiciatis veniam, quae</p>
-                  <a href="blog-post.php" class="link">READ MORE</a> </div>
-                <!-- end post-content --> 
-              </div>
-              <!-- end post --> 
-            </div>
-            <!-- end col-6 -->
-            <div class="col-md-4 col-sm-12 wow fadeInUp">
-              <div class="post">
-                <figure><img src="images/news03.jpg" alt="Image">
-                  <div class="author"> <img src="images/logo.png" alt="Image"> <small>by <strong>KMF Media</strong></small> </div>
-                </figure>
-                <div class="post-content"> <small>Posted 18 October 2023</small>
-                  <h3><a href="blog-post.php">Behind the Beats: Artist Spotlights and Interviews</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam minus exercitationem perspiciatis veniam, quae</p>
-                  <a href="blog-post.php" class="link">READ MORE</a> </div>
-                <!-- end post-content --> 
-              </div>
-              <!-- end post --> 
-            </div>
-            <!-- end col-6 -->
-            <div class="col-md-4 col-sm-12 wow fadeInUp">
-              <div class="post">
-                <figure><img src="images/news04.jpg" alt="Image">
-                  <div class="author"> <img src="images/logo.png" alt="Image"> <small>by <strong>KMF Media</strong></small> </div>
-                </figure>
-                <div class="post-content"> <small>Posted 12 October 2023</small>
-                  <h3><a href="blog-post.php">Music Industry Trends: Navigating the Digital Era</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam minus exercitationem perspiciatis veniam, quae</p>
-                  <a href="blog-post.php" class="link">READ MORE</a> </div>
-                <!-- end post-content --> 
-              </div>
-              <!-- end post --> 
-            </div>
-            <!-- end col-6 -->
-            <!-- end col-6 --> 
-          </div>
-          <!-- end row --> 
-        </div>
-        <!-- end container -->
-            </div>
-            <!-- end journal -->
-        </section>
 
-       <!--end side-image-content -->
+          <!-- end post -->
+          <div class="clearfix"></div>
+          <div class="container mt-5">
+            <div class="row">
+
+              <?php
+              $query = mysqli_query($conn, "select * from blog where is_active=1 order by blog_id asc ");
+              $totl = mysqli_num_rows($query);
+              if ($totl > 0) {
+                $id = 1;
+                while ($row = mysqli_fetch_array($query)) {
+              ?>
+
+
+                  <div class="col-md-4 col-sm-12 wow fadeInUp">
+                    <div class="post">
+                      <figure><img src="<?= BASE_URL_IMG . 'blog-image/' . $row['blog_img'] . '' ?>" alt="Image">
+                        <div class="author"> <img src="images/logo.png" alt="Image"> <small>by <strong>KMF Media</strong></small> </div>
+                      </figure>
+                      <div class="post-content"> <small>Posted 20 October 2023</small>
+                        <h3><a href="blog-post.php?blog_id=<?= $row['blog_id'] ?>"><?= $row["blog_title"] ?></a></h3>
+                        <p>
+                          <?= $row["blog_content"] ?>
+                        </p>
+                      </div>
+                      <!-- end post-content -->
+                    </div>
+                    <!-- end post -->
+                  </div>
+
+                <?php $id++;
+                }
+              } else { ?>
+                <div>
+                  <p salign="center">No record found</p>
+                </div>
+              <?php } ?>
+
+
+              <hr class="my-4">
+
+
+
+              <!-- end col-6 -->
+              <!-- end col-6 -->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end journal -->
+      </section>
+
+      <!--end side-image-content -->
       <!-- end awards -->
     </section>
     <!-- end content -->
@@ -709,22 +777,44 @@
   <script src="js/wow.min.js"></script>
   <script src="js/perspective.min.js"></script>
   <script src="js/scripts.js"></script>
+
   <script>
     let slideIndex = 0;
-showSlides();
+    showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2800); // Change image every 2 seconds
-}
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
   </script>
+
+
+  <style>
+    @media only screen and (max-width: 600px) {
+
+      .prev,
+      .next {
+        top: 98%;
+      }
+
+      .slider .swiper-container .swiper-slide .inner {
+        position: absolute;
+        bottom: auto !important;
+      }
+    }
+  </style>
+
+
+
 </body>
 
 <!-- Mirrored from themezinho.net/anchor/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Oct 2023 05:35:36 GMT -->
